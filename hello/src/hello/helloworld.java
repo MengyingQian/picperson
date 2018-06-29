@@ -18,7 +18,7 @@ import java.util.regex.Pattern;
  
  
 public class helloworld {
-    //private static String REGEX = "\\[(\\S+)\\]";
+  /*  //private static String REGEX = "\\[(\\S+)\\]";
 	private static String REGEX = "\\[([^\\]]+)\\]";//^\\]:所有非]的字符串
 	private static String REGEX1 = "<([^<>]*)>";//^\\]:所有非]的字符串
 	private static String REGEX2 = "\n\r";//^\\]:所有非]的字符串
@@ -44,7 +44,7 @@ public class helloworld {
                 String res="";
                 //一行一行读取
                 while((thisline=br.readLine())!=null){
-                    res += thisline+"\n";
+                    res += thisline;
                 	//System.out.println(res);
                      
                 }
@@ -100,5 +100,5 @@ public class helloworld {
     }
     }
      
-     
+     */
 }
